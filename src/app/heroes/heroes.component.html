@@ -1,0 +1,85 @@
+<h2>Lista de Heroes Registrados:</h2>
+<ul class="heroes">
+
+<ul class="heroes">
+
+  <li *ngFor="let hero of heroes" >
+    <button type="button" (click)="onSelect(hero)">
+      <span class="badge">{{hero.id}}</span>
+      <span class="name">{{hero.name}}</span>
+    </button>
+  </li>
+<!--
+  <li>
+    <button>
+    
+      <span class="badge">{{hero.id}}</span>
+      <span  class="name">{{hero.name}}</span>
+      
+    </button>
+  </li>
+
+</ul>
+  <li *ngFor="let hero of heroes">
+    <div [class.selected]="hero === selectedHero" type="button" (click)="onSelect(hero)">3
+      <hr>
+      <div>
+        <label for="name">Nombre:</label>
+        <input id="name" [(ngModel)]="hero.name" placeholder="name">
+      </div>
+
+      <table>
+        <tr>
+          <td rowspan="3">
+            <span class="badge"><img src={{hero.imagen}}></span>
+          </td>
+          <td>
+            <div><samp><strong>ID:</strong></samp></div>{{hero.id}}
+          </td>
+
+          <td>
+            <div> <span class="badge">{{hero.id}}</span>
+              
+            <span class="badge">Nombre: {{hero.name}}</span>
+            <span class="badge">{{hero.history}}</span>
+            <span class="badge">{{hero.poderes}}</span>
+            
+            </div>
+          </td>
+        </tr>
+        
+      </table>
+    
+     
+    </div>
+  </li>
+</ul>
+-->
+<hr>
+
+<div *ngIf="selectedHero">
+
+  <table>
+    <tr>
+      <td rowspan="3">
+        <span class="badge"><img src={{selectedHero.imagen}}></span>
+      </td>
+    
+      <td>
+        <div> 
+        <span class="name">Nombre: <br><br>{{selectedHero.name | uppercase}}</span> <br><br><br>
+        <span class="history">Historia: <br><br>{{selectedHero.history}}</span> 
+        <span class="powers">{{selectedHero.poderes}}</span>
+        
+        </div>
+      </td>
+    </tr>
+    
+  </table>
+  <div>id: {{selectedHero.id}}</div>
+  <div>
+    <label for="hero-name">Hero name: </label>
+    <input id="hero-name" [(ngModel)]="selectedHero.name" placeholder="name">
+  </div>
+
+</div>

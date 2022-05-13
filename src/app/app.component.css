@@ -1,0 +1,25 @@
+.panel_superior
+{
+    width: 100%;
+    background-color: rgba(255, 0, 0, .2);
+    margin: auto;
+    padding: 30px 15px 15px;
+
+}
+.panel_central
+{
+    width: 100%;
+    background-color: rgba(0, 0, 255, .2);
+    margin: auto;
+    padding: 30px 15px 15px;  
+
+}
+.panel_inferior
+{
+    width: 100%;
+    height: 200px;
+    background-color: rgba(0, 255, 0, .2);
+    margin: auto;
+    padding: 30px 15px 15px;
+
+}
