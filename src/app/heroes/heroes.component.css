@@ -64,3 +64,27 @@
   .heroes .name {
     align-self: center;
   }
+  
+.panel_lista{
+  background-color: red;
+  width: 20%;
+}
+
+.panel_tabla{
+  background-color: greenyellow;
+  width: 80%;
+}
+
+.panel_update{
+  background-color: gray;
+}
+
+.responsive_image{
+  width: 600px;
+  height: auto;
+  max-width: 500px;
+}
+
+.tabla{
+  padding-right: 10px;
+}

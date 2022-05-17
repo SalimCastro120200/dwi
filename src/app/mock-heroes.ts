@@ -1,18 +1,18 @@
 import { Hero } from './hero';
 
 export const HEROES: Hero[] = [
-  { id: 11, name: 'Stard Lord', history: 'Star-Lord es un personaje ficticio que aparece en los cómics estadounidenses publicados por Marvel Comics. El personaje, creado por Steve Englehart y Steve Gan, apareció por primera vez en Marvel', imagen: '../assets/images/star.jpg', poderes: 'rayo laser' },
-  { id: 12, name: 'Groot', history: 'root es un superhéroe ficticio que aparece en los cómics estadounidenses publicados por Marvel Comics. Creado por Stan Lee, Larry Lieber ', imagen: '../assets/images/groot.jpg', poderes: 'rayo laser' },
+  { id: 11, name: 'Stard Lord', history: 'Star-Lord es un personaje ficticio que aparece en los cómics estadounidenses publicados por Marvel Comics. El personaje, creado por Steve Englehart y Steve Gan, apareció por primera vez en Marvel', imagen: '../assets/images/star.jpg', poderes: 'MAMADISIMO' },
+  { id: 12, name: 'Groot', history: 'root es un superhéroe ficticio que aparece en los cómics estadounidenses publicados por Marvel Comics. Creado por Stan Lee, Larry Lieber ', imagen: '../assets/images/groot.jpg', poderes: 'MADERICO' },
 
-  { id: 13, name: 'Hulk', history: 'Hulk es un personaje ficticio, un superhéroe que aparece en los cómics estadounidenses publicados por la editorial Marvel Comics. El personaje fue creado por los escritores Stan Lee y Jack Kirby siendo su primera aparición en The Incredible Hulk #1', imagen: '../assets/images/hulk.jpg', poderes: 'rayo laser' },
+  { id: 13, name: 'Hulk', history: 'Hulk es un personaje ficticio, un superhéroe que aparece en los cómics estadounidenses publicados por la editorial Marvel Comics. El personaje fue creado por los escritores Stan Lee y Jack Kirby siendo su primera aparición en The Incredible Hulk #1', imagen: '../assets/images/hulk.jpg', poderes: 'ESTERIL' },
 
   { id: 14, name: 'Capitan America', history: 'El Capitán América, cuyo nombre real es Steven "Steve" Grant Rogers, es un superhéroe ficticio que aparece en los cómics estadounidenses publicados por Marvel Comics', imagen: '../assets/images/capi.jpg', poderes: 'rayo laser' },
 
-  { id: 15, name: 'Iron Man', history: 'ron Man es un superhéroe que aparece en los cómics estadounidenses publicados por Marvel Comics. El personaje fue cocreado por el escritor y editor Stan Lee, desarrollado por el guionista Larry Lieber y diseñado por los artistas Don Heck y Jack Kirby.', imagen: '../assets/images/iron.jpg', poderes: 'rayo laser' },
+  { id: 15, name: 'Iron Man', history: 'ron Man es un superhéroe que aparece en los cómics estadounidenses publicados por Marvel Comics. El personaje fue cocreado por el escritor y editor Stan Lee, desarrollado por el guionista Larry Lieber y diseñado por los artistas Don Heck y Jack Kirby.', imagen: '../assets/images/iron.jpg', poderes: 'METALICO' },
 
   { id: 16, name: 'Ant Man', history: 'Ant-Man (Hombre Hormiga en algunas traducciones al español) es el nombre de varios superhéroes ficticios que aparecen en libros publicados por Marvel Comics. Creado por Stan Lee, Larry Lieber y Jack Kirby, la primera aparición de Ant-Man fue en el número 27 de Tales to Astonish (de enero de 1962).', imagen: '../assets/images/anti.jpg', poderes: 'rayo laser' },
 
-  { id: 17, name: 'Benito Juarez', history: 'Benito Pablo Juárez García, fue un abogado y político mexicano, de origen indígena, presidente de México en varias ocasiones, del 21 de enero de 1858 al 18 de julio de 1872.​ Se le conoce como el «Benemérito de las Américas', imagen: '../assets/images/benito.jpg', poderes: 'rayo laser' },
+  { id: 17, name: 'Benito Juarez', history: 'Benito Pablo Juárez García, fue un abogado y político mexicano, de origen indígena, presidente de México en varias ocasiones, del 21 de enero de 1858 al 18 de julio de 1872.​ Se le conoce como el «Benemérito de las Américas', imagen: '../assets/images/benito.jpg', poderes: 'RESPETO AJENO' },
 
   { id: 18, name: 'Thor', history: 'Thor es un personaje importante en el Universo Cinematográfico Marvel, siendo el único Vengador que no es de la Tierra. Thor empuña el martillo de guerra místico Mjolnir, que controla el clima, pero él también tiene fuerza, durabilidad y agilidad similares a las de un dios.', imagen: '../assets/images/thor.jpg', poderes: 'rayo laser' },
 
